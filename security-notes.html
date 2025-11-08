@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Security Notes - Educational Content</title>
+</head>
+<body>
+    <h1>What Makes a Secure Login System</h1>
+    
+    <h2>Client-Side Limitations:</h2>
+    <ul>
+        <li>No real authentication - anyone can view source code</li>
+        <li>No password hashing or encryption</li>
+        <li>No protection against brute force attacks</li>
+        <li>No session management</li>
+    </ul>
+    
+    <h2>Production Requirements:</h2>
+    <ul>
+        <li>Server-side validation</li>
+        <li>Password hashing (bcrypt, Argon2)</li>
+        <li>HTTPS encryption</li>
+        <li>Rate limiting</li>
+        <li>Session tokens</li>
+        <li>CSRF protection</li>
+    </ul>
+    
+    <a href="index.html">Back to Demo</a>
+</body>
+</html>
